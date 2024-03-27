@@ -371,7 +371,7 @@ if (!isNumber(user.leleb)) user.leleb = 0
 if (!isNumber(user.lelebakar)) user.lelebakar = 0
 if (!isNumber(user.leleg)) user.leleg = 0
 if (!isNumber(user.level)) user.level = 0
-if (!isNumber(user.limit)) user.limit = 15
+if (!isNumber(user.limit)) user.limit = 50
 if (!isNumber(user.limitjoinfree)) user.limitjoinfree = 1
 if (!isNumber(user.lion)) user.lion = 0
 if (!isNumber(user.lionexp)) user.lionexp = 0
@@ -794,7 +794,7 @@ leleb: 0,
 lelebakar: 0,
 leleg: 0,
 level: 0,
-limit: 15,
+limit: 50,
 limitjoinfree: 1,
 lion: 0,
 lionexp: 0,
@@ -997,7 +997,7 @@ if (!('game' in chat)) chat.game = true
 if (!('game2' in chat)) chat.game2 = true
 if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = true
-if (!('autolevelup' in chat))  chat.autolevelup = true
+if (!('autolevelup' in chat))  chat.autolevelup = false
 if (!isNumber(chat.expired)) chat.expired = 0
 } else
 global.db.data.chats[m.chat] = {
@@ -1031,7 +1031,7 @@ game: true,
 game2: true, 
 simi: false,
 antiTraba: true,
-autolevelup: true,
+autolevelup: false,
 expired: 0,
 }
 let settings = global.db.data.settings[this.user.jid]
