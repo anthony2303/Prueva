@@ -67,7 +67,7 @@ let username = conn.getName(who)
 //let user = global.db.data.users[m.sender]
 //user.registered = false
 
-let Terminos = `*_Toda la informacion que se mencione aqui no excluye a la Propietaria del Bot, y Propietarios Acredores al uso de GataBot-MD_*
+let Terminos = `*_Toda la informacion que se mencione aqui no excluye a la Propietaria del Bot, y Propietarios Acredores al uso de MichiBot_*
 *_No Somos responsables del desconocimiento que tenga por parte de esta informacion._* 
 
 
@@ -108,21 +108,13 @@ _- NO usar el Bot siendo Numero(s) Oficial(es) para llevar a cabo alguna accion 
 
 _- NO use el comando de SPAM repetidamente, ya que Provocar un Mal funcionamiento en el BOT, tampoco envie al BOT mensajes que puedan comprometer el Funcionamiento de la misma._
 
-_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarian las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de GataBot._
-
-
-*ESTE ES EL REPOSITORIO OFICIAL*
-*${md}
+_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarian las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de MichiBot._
 
 *CUENTA OFICIAL DE ASISTENCIA - INSTAGRAM*
 ~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre GataBot, Tambien puede Comunicarse en Caso de Temas de Colaboracion_
 *${ig}*
 
-*DONAR A LA CREADORA EN ESTA CUENTA OFICIAL*
-~ _Si te Agrada y valoras el Trabajo que he realizado, puedes ayudarme en Donar para que pueda continuar en este Proyecto_
-*https://paypal.me/OficialGD*
-
-*~ Muchas Gracias Por tomarte el tiempo en informate sobre GataBot*` 
+*~ Muchas Gracias Por tomarte el tiempo en informate sobre MichiBot*` 
 await conn.sendFile(m.chat, pp, 'gata.mp4', Terminos)
 /*.trim()
 conn.sendHydrated(m.chat, Terminos,  `${wm}\nEstamos de acuerdo en Hacer Colaboraciones con Personas Comprometidas, manteniendo el Respeto Puedes Contactar si ese es el caso a esta Cuenta Oficial | https://www.instagram.com/gata_dios`, pp, 'https://github.com/GataNina-Li/GataBot-MD', '饾檪饾櫀饾櫓饾櫀饾樈饾櫎饾櫓-饾檲饾樋', null, null, [
