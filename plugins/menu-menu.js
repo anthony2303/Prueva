@@ -236,6 +236,35 @@ ${generateCommand(commandsConfig, usedPrefix).replace(/≡/g, '𖡡')}
 
 ${margen}
 
+> LISTAS PARA VS Y MAS
+
+✓ .4vs4 Lista de 4 vs 4
+✓ .6vs6 Lista de 6 vs 6
+✓ .scrim Lista de scrim
+✓ .internamasc Lista de versus interno masculino
+✓ .internafem Lista de versus interno femenino
+✓ .internamixta Lista de versus interno mixto
+✓ .donarsala Escoge un donador de sala al azar en el grupo
+✓ .vs8 Lista de 8 vs 8 
+✓ .vs12 Lista de 12 vs 12
+✓ .vs16 Lista de 16 vs 16
+✓ .vs20 Lista de 20 vs 20
+✓ .vs24 Lista de 24 vs 24
+✓ .fem18 Lista de vivido para las 18🇦🇷
+✓ .fem19 Lista de vivido para las 19🇦🇷
+✓ .fem20 Lista de vivido para las 20🇦🇷
+✓ .fem21 Lista de vivido para las 21🇦🇷
+✓ .fem22 Lista de vivido para las 22🇦🇷
+✓ .fem23 Lista de vivido para las 23🇦🇷
+✓ .fem00 Lista de vivido para las 00🇦🇷
+✓ .masc18 Lista de vivido para las 18🇦🇷
+✓ .masc19 Lista de vivido para las 19🇦🇷
+✓ .masc20 Lista de vivido para las 20🇦🇷
+✓ .masc21 Lista de vivido para las 21🇦🇷
+✓ .masc22 Lista de vivido para las 22🇦🇷
+✓ .masc23 Lista de vivido para las 23🇦🇷
+✓ .masc00 Lista de vivido para las 00🇦🇷
+
 > 🧾 *AJUSTES/INFO - GRUPO* 🧾
 
 ✓ _${usedPrefix}configuracion_
