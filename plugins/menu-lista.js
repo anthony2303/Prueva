@@ -67,6 +67,7 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let pp = gataVidMenu
+let vn = './media/menu.mp3'
 let pareja = global.db.data.users[m.sender].pasangan 
 //let fsizedoc = '1'.repeat(10)
 //let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(gataMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}
