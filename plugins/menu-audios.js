@@ -214,12 +214,12 @@ let str = `
 ∘ _Gol!_
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-                      🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+                      🐈 𝗠𝗶𝗰𝗵𝗶𝗕𝗼𝘁 🐈
          0:40 ━❍──────── -8:39
          ↻     ⊲  Ⅱ  ⊳     ↺
          VOLUMEN: ▁▂▃▄▅▆▇ 100%
 ╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
-    conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
+    conn.sendFile(m.chat, pp, './Menu2.jpg', str, m, false, { contextInfo: { mentionedJid }})
 /*let menuA = `🎶 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
 let menuB = `
 ╭┄〔 *${wm}* 〕┄⊱
