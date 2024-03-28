@@ -209,11 +209,6 @@ ${generateCommand(commandsInfo, usedPrefix)}
 
 ${margen}
 
-> 💻 *COMANDOS - SUB BOT*\n
-${generateCommand(commandsJadiBot, usedPrefix)}
-
-${margen}
-
 > 🆘 *REPORTAR COMANDOS* 🆘\n
 ${generateCommand(commandsReport, usedPrefix)}
 
