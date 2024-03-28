@@ -587,7 +587,7 @@ ${margen}
 ✓ _${usedPrefix}añadirgatacoins *@tag cantidad*_
 `.trim()
 await conn.sendFile(m.chat, gataImg, './Menu2.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝗥𝗶𝗰𝗵𝗲𝘁𝘁𝗶 𝘆 𝗚𝗲𝗿𝗶𝗗𝘇𝗻', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu }}})
-//conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
+//conn.sendFile(m.chat, "./Menu2.jpg", 'gata.mp4', menu, fkontak)
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
