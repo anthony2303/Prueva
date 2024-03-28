@@ -368,7 +368,7 @@ handler.all = async function(m, {conn}) {
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   }
 
-  if (!chat.isBanned && m.text.match(/(@56937374242)/gi)) {
+  if (!chat.isBanned && m.text.match(/(@56941827124|@56921994449)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
     const vn = './media/geri.mp3';
