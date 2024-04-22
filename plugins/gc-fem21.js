@@ -15,7 +15,7 @@ teks += `
 │      ෆ 𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:
 │      ෆ 𝘏𝘰𝘳𝘢𝘳𝘪𐐫:
 │      ෆ 𝘔𝘰𝘥𝘢𝘭𝘪𝘥𝘢𝘥:
-│         ‧₊⌗ 19 🇵🇪 ⌇ 21 🇨🇱 ⌇ 21 🇦🇷      
+│         ‧₊⌗ 21 🇲🇽 ⌇ 22 🇨🇴      
 │
 │ㅤㅤʚ 𝘑𝘶𝘨𝘢𝘥𝘰𝘳𝘢𝘴:
 │ㅤ🌸• 
@@ -32,9 +32,9 @@ teks += `
 ╰───────────────๑❀๑ •`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
-handler.help = ['smsf21 <mesaje>','fem21 <mesaje>']
+handler.help = ['smsf18 <mesaje>','fem18 <mesaje>']
 handler.tags = ['group']
-handler.command = /^(smsf21|fem21)$/i
+handler.command = /^(smsf18|fem18)$/i
 handler.admin = true
 handler.group = true
 export default handler
