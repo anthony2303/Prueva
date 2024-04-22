@@ -39,6 +39,7 @@ if (global.chatgpt.data === null) await global.loadChatgptDB()
 /*------------------------------------------------*/	
 try {
 m = smsg(this, m) || m
+global.mconn = m
 if (!m)
 return
 m.exp = 0
@@ -1390,15 +1391,7 @@ function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]
  * Handle groups participants update
  * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 
  */
-export async function participantsUpdate({ id, participants, action }) {
-  /************************
-   * Opção de tradução de idioma
-   * 
-   ***********************/
-  const idioma = global.db.data.chats[id]?.language || 'es';
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
-  const tradutor = _translate.handler.participantsUpdate
-
+export async function participantsUpdate({id, participants, action}) {
   const m = mconn
   if (opts['self']) return;
   //if (m.conn.isInit) return;
@@ -1412,7 +1405,7 @@ export async function participantsUpdate({ id, participants, action }) {
       if (chat.welcome && !chat?.isBanned) {
         const groupMetadata = await m.conn.groupMetadata(id) || (conn.chats[id] || {}).metadata;
         for (const user of participants) {
-          let pp = 'https://raw.githubusercontent.com/Richetti123/ElviraBot/master/src/avatar_contact.png';
+          let pp = './src/avatar_contact.png';
           try {
             pp = await m.conn.profilePictureUrl(user, 'image');
           } catch (e) {
@@ -1422,47 +1415,41 @@ export async function participantsUpdate({ id, participants, action }) {
             const userPrefix = antiArab.some((prefix) => user.startsWith(prefix));
             const botTt2 = groupMetadata.participants.find((u) => m.conn.decodeJid(u.id) == m.conn.user.jid) || {};
             const isBotAdminNn = botTt2?.admin === 'admin' || false;
-            text = (action === 'add' ? (chat.sWelcome || tradutor.texto1 || conn.welcome || 'Welcome, @user!').replace('@subject', await m.conn.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
-              (chat.sBye || tradutor.texto2 || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0]);
+            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await m.conn.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
+                              (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0]);
             if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 'add') {
               const responseb = await m.conn.groupParticipantsUpdate(id, [user], 'remove');
               if (responseb[0].status === '404') return;
-let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
-this.sendMessage(id, { text: text, 
-contextInfo:{
-forwardingScore: 9999999,
-isForwarded: true, 
-mentionedJid:[user],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"thumbnail": apii.data, 
-"title": [wm, '𝗠𝗶𝗰𝗵𝗶𝗕𝗼𝘁 𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 ' + gt + ' 😻', '𝗥𝗶𝗰𝗵𝗲𝘁𝘁𝗶 𝘆 𝗚𝗲𝗿𝗶𝗗𝘇𝗻'].getRandom(),
-"containsAutoReply": true,
-"mediaType": 1, 
-sourceUrl: accountsgb }}}, { quoted: fkontak2 })
-//this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
-}}}
-			    
-break
-case 'promote':
-case 'daradmin':
-case 'darpoder':
-text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
-case 'demote':
-case 'quitarpoder':
-case 'quitaradmin':
-if (!text)
-text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
-text = text.replace('@user', '@' + participants[0].split('@')[0])
-if (chat.detect)
-//this.sendMessage(id, { text, mentions: this.parseMention(text) })
-break
-}}
+              const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
+              await m.conn.sendMessage(id, {text: `*[❗] @${user.split('@')[0]} ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ ɴᴏ sᴇ ᴘᴇʀᴍɪᴛᴇɴ ɴᴜᴍᴇʀᴏs ᴀʀᴀʙᴇs ᴏ ʀᴀʀᴏs, ᴘᴏʀ ʟᴏ ϙᴜᴇ sᴇ ᴛᴇ sᴀᴄᴀʀᴀ ᴅᴇʟ ɢʀᴜᴘᴏ*`, mentions: [user]}, {quoted: fkontak2});
+              return;
+            }
+            await m.conn.sendFile(id, apii.data, 'pp.jpg', text, null, false, {mentions: [user]});
+          }
+        }
+      }
+      break;
+    case 'promote':
+    case 'daradmin':
+    case 'darpoder':
+      text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```');
+    case 'demote':
+    case 'quitarpoder':
+    case 'quitaradmin':
+      if (!text) {
+        text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```');
+      }
+      text = text.replace('@user', '@' + participants[0].split('@')[0]);
+      if (chat.detect && !chat?.isBanned) {
+        mconn.conn.sendMessage(id, {text, mentions: mconn.conn.parseMention(text)});
+      }
+      break;
+  }
+}
 
 /**
  * Handle groups update
- * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['groups.update']} groupsUpdate 
+ * @param {import('@whiskeysockets/baileys').BaileysEventMap<unknown>['groups.update']} groupsUpdate
  */
 export async function groupsUpdate(groupsUpdate) {
 if (opts['self'] && !isOwner && !isROwner)
