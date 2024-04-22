@@ -54,9 +54,6 @@ let old = performance.now()
   let speed = neww - old
 
 let info = `╭━━━━[ ${gt} ]━━━━━⬣
-┃➥ *CREADOR | CREATOR*
-┃ღ *𝗥𝗶𝗰𝗵𝗲𝘁𝘁𝗶 𝘆 𝗚𝗲𝗿𝗶𝗗𝘇𝗻*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CONTACTO | CONTACT* 
 ┃ღ *${ig}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
