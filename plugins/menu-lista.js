@@ -168,7 +168,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃➺ _${usedPrefix}cuentas| cuentasgb_
 ┃
 *╰━━━━━━━━━━━━━⬣*`.trim()
-await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝗠𝗶𝗰𝗵𝗶𝗕𝗼𝘁 𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 𝗥𝗶𝗰𝗵𝗲𝘁𝘁𝗶 𝘆 𝗚𝗲𝗿𝗶𝗗𝘇𝗻', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
+await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼 𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
 await conn.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m }) 
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 	
