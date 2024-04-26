@@ -12,16 +12,12 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 global.owner = [
-["51966254634", 'Richetti123', true], //MichiBot
-["56941827124", 'Geripium', true], //MichiBot
-["527772668134"], 
-["56941827124"],
-["56941827124"],
-["56941827124"],
-["56941827124"]]
+["5215625060788", 'Anthony Ventas', true], //Capibot Premium
+["5213344515151", 'Anthony Ventas', true], //Nekotina bot
+["525625060788"]]
 
-global.mods = []
-global.prems = []
+global.mods = ["5215625060788"]
+global.prems = ["5215625060788"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -36,7 +32,7 @@ global.keepAliveRender = 0; //Solo valores: 1 o 0
 // ❰❰ methodCode ❱❱
 // [ES] > Agregue el número del Bot en "botNumberCode" si desea recibir código de 8 dígitos sin registrar el número en la consola.
 // [EN] > Add the Bot number in "botNumberCode" if you want to receive 8-digit code without registering the number in the console.
-global.botNumberCode = "" //example: "+59309090909"
+global.botNumberCode = "" //example: "+5215625060788"
 global.confirmCode = "" // No tocar esto : Do not touch this line
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -116,9 +112,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["593968263524", 'ElviraBot', 1], 
-["5492266466080", 'ElviraBot', 1],  
-["5521989092076", 'ElviraBot', 1]]
+["5215625060788", 'Anthony Ventas', 1], 
+["5213344515151", 'Anthony', 1],  
+["5215615060788", 'Capibot', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -126,8 +122,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "ElviraBot"
-global.author = "ElviraBot"
+global.packname = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
+global.author = "𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -135,7 +131,7 @@ global.author = "ElviraBot"
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "ElviraBot"
+global.gt = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -161,9 +157,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "ElviraBot"
-global.igfg = "ElviraBot"
-global.nomorown = "56941827124"
+global.wm = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
+global.igfg = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
+global.nomorown = "5215625060788"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
