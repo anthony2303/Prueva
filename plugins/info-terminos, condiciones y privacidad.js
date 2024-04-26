@@ -78,9 +78,9 @@ _- Lo que realice con el BOT queda solo en Usted ya que en Numero(s) Oficial(es)
 
 _- Es posible que en Numero(s) Oficial(es) el Bot no este Activado las 24 Horas de los 7 dias de la Semana, eso no implica que no lo este o que Propietarios NO OFICIALES puedan Hacerlo._
 
-_- El chat anonimo del comando #start, valga la redundancia no mostrará ningun dato de los Usuarios por parte de GataBot. Eso no implica que las personas que hagan uso de esta funcion puedan dar a conocer sus datos. en Numero(s) Oficial(es)._
+_- El chat anonimo del comando #start, valga la redundancia no mostrará ningun dato de los Usuarios por parte de 𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼. Eso no implica que las personas que hagan uso de esta funcion puedan dar a conocer sus datos. en Numero(s) Oficial(es)._
 
-_- Los Datos que Obtenga GataBot en Cuentas Oficiales de Usuarios(as), Grupos y Ajustes del Mismo puede verse Reiniciado, Modificado, y/o Retificado con el fin de que el Bot este en optimas Condiciones para su Uso. (Usuarios(as) Pueden Pedir Compensacion Por Instagram o por el comando #Reporte. Debe de Presentar Pruebas)._
+_- Los Datos que Obtenga 𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼 en Cuentas Oficiales de Usuarios(as), Grupos y Ajustes del Mismo puede verse Reiniciado, Modificado, y/o Retificado con el fin de que el Bot este en optimas Condiciones para su Uso. (Usuarios(as) Pueden Pedir Compensacion Por Instagram o por el comando #Reporte. Debe de Presentar Pruebas)._
 
 _- NO somos responsable si Hay alteraciones de este Bot no siendo Numero(s) Oficial(es) y tengan de uso un Repositorio de GitHub que no corresponda al Oficial, o que implementen Usuarios de Terceros integraciones que comprometan a los(as) Usuarios(as) al utilizar Versiones no Oficiales._
 
@@ -110,14 +110,14 @@ _- NO use el comando de SPAM repetidamente, ya que Provocar un Mal funcionamient
 
 _- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarian las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de MichiBot._
 
-*CUENTA OFICIAL DE ASISTENCIA - INSTAGRAM*
+*CUENTA OFICIAL DE ASISTENCIA - WHATSAPP*
 ~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre GataBot, Tambien puede Comunicarse en Caso de Temas de Colaboracion_
 *${ig}*
 
-*~ Muchas Gracias Por tomarte el tiempo en informate sobre MichiBot*` 
+*~ Muchas Gracias Por tomarte el tiempo en informate sobre 𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼*` 
 await conn.sendFile(m.chat, pp, 'gata.mp4', Terminos)
 /*.trim()
-conn.sendHydrated(m.chat, Terminos,  `${wm}\nEstamos de acuerdo en Hacer Colaboraciones con Personas Comprometidas, manteniendo el Respeto Puedes Contactar si ese es el caso a esta Cuenta Oficial | https://www.instagram.com/gata_dios`, pp, 'https://github.com/GataNina-Li/GataBot-MD', '饾檪饾櫀饾櫓饾櫀饾樈饾櫎饾櫓-饾檲饾樋', null, null, [
+conn.sendHydrated(m.chat, Terminos,  `${wm}\nEstamos de acuerdo en Hacer Colaboraciones con Personas Comprometidas, manteniendo el Respeto Puedes Contactar si ese es el caso a esta Cuenta Oficial | https://wa.me/5215625060788`, pp, 'https://wa.me/5215625060788', '饾檪饾櫀饾櫓饾櫀饾樈饾櫎饾櫓-饾檲饾樋', null, null, [
 ['饾檲饾櫄饾櫍饾櫔虂 饾櫂饾櫎饾櫌饾櫏饾櫋饾櫄饾櫓饾櫎 | 饾檨饾櫔饾櫋饾櫋 饾檲饾櫄饾櫍饾櫔 馃挮', '.allmenu'],
 ['饾檲饾櫄饾櫍饾櫔 饾櫃饾櫄饾櫒饾櫏饾櫋饾櫄饾櫆饾櫀饾櫁饾櫋饾櫄 | 饾檲饾櫄饾櫍饾櫔 饾檱饾櫈饾櫒饾櫓 馃専', '/menulista'],
 ['饾檲饾櫄饾櫍饾櫔 饾檵饾櫑饾櫈饾櫍饾櫂饾櫈饾櫏饾櫀饾櫋 | 饾檲饾櫀饾櫈饾櫍 饾櫌饾櫄饾櫍饾櫔 鈿?', '#menu']
