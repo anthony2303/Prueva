@@ -108,10 +108,10 @@ _- NO usar el Bot siendo Numero(s) Oficial(es) para llevar a cabo alguna accion 
 
 _- NO use el comando de SPAM repetidamente, ya que Provocar un Mal funcionamiento en el BOT, tampoco envie al BOT mensajes que puedan comprometer el Funcionamiento de la misma._
 
-_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarian las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de MichiBot._
+_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarian las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de Nekotina._
 
 *CUENTA OFICIAL DE ASISTENCIA - WHATSAPP*
-~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre GataBot, Tambien puede Comunicarse en Caso de Temas de Colaboracion_
+~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre Nekotina, Tambien puede Comunicarse en Caso de Temas de Colaboracion_
 *${ig}*
 
 *~ Muchas Gracias Por tomarte el tiempo en informate sobre 𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼*` 
