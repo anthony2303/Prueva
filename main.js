@@ -105,7 +105,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `MichiBot`
+global.authFile = `𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼`
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
 const msgRetryCounterCache = new NodeCache()
