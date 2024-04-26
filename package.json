@@ -1,7 +1,7 @@
 {
-"name": "MichiBot",
-"version": "1.7.0", 
-"description": "Bot WhatsApp",
+"name": "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼",
+"version": "3.8.13", 
+"description": "𝘽𝙔 𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎",
 "main": "index.js",
 "type": "module",
     
@@ -19,7 +19,7 @@
     
 "homepage": "https://github.com/GataNina-Li/GataBot-MD",
 "author": {
-"name": "GataNina-Li" },
+"name": "𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎" },
     
 "repository": {
 "type": "git",
