@@ -5,10 +5,10 @@ throw false
 }
 let pesan = args.join` `
 let oi = `@vsebas.y ${pesan}`
-let teks = `*ACTIVENSE AMORES 💗*\n${oi}\n\n*🚨𝙈𝙚𝙣𝙘𝙞𝙤𝙣𝙚𝙨*\n`
+let teks = `*ACTIVENSE ADORNOS 💗*\n${oi}\n\n*🚨𝙈𝙚𝙣𝙘𝙞𝙤𝙣𝙚𝙨*\n`
 for (let mem of participants) {
 teks += `✨ @${mem.id.split('@')[0]}\n`}
-teks += `ElviraBot`
+teks += `𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼 𝘽𝙔 𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
 handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
