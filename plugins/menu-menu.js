@@ -615,7 +615,7 @@ ${margen}
 ✓ _${usedPrefix}añadirxp *@tag cantidad*_
 ✓ _${usedPrefix}añadirgatacoins *@tag cantidad*_
 `.trim()
-await conn.sendFile(m.chat, gataImg, './Menu2.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝘽𝙔 𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu }}})
+await conn.sendMessage(m.chat, {image: gataImg, caption: menu, mentions: mentionedJid}, {quoted: fkontak})    
 //conn.sendFile(m.chat, "./Menu2.jpg", 'gata.mp4', menu, fkontak)
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
